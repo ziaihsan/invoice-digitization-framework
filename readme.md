@@ -72,13 +72,9 @@ It should be like this after:
 │   │   ├── Template1_Instance100.jpg
 │   │   ├── Template1_Instance101.jpg
 │   │   └── ... (skipped 195 more .jpg files)
-│   └── trash
-│       ├── Template10_Instance127.jpg
-│       ├── Template10_Instance127.json
-│       ├── Template10_Instance15.jpg
-│       ├── Template10_Instance15.json
-│       ├── Template10_Instance21.jpg
-│       └── ... (skipped 637 more .jpg/.json files)
+│   │
+│   └── trash <-- Archival folder for previous batch files displaced by dataset_refresher.py
+│
 ├── excel_rpa.py
 ├── ocr_to_csv.py
 ├── requirements.txt
