@@ -1,0 +1,1 @@
+Delete this file and put 10 000 JSON file from FATURA dataset.

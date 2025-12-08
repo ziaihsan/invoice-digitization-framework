@@ -1,0 +1,41 @@
+2025-11-11 01:19:09 | accuracy: 0.8240 | total_groundtruth: 50 | total_ocr: 50
+2025-11-11 01:19:24 | accuracy: 0.8240 | total_groundtruth: 50 | total_ocr: 50
+2025-11-11 01:23:04 | accuracy: 0.8347 | total_groundtruth: 50 | total_ocr: 50
+2025-11-11 01:43:49 | accuracy: 0.8573 | total_groundtruth: 50 | total_ocr: 50
+2025-11-11 01:45:53 | accuracy: 0.8573 | total_groundtruth: 50 | total_ocr: 50
+2025-11-11 01:47:35 | accuracy: 0.8573 | total_groundtruth: 50 | total_ocr: 50
+2025-11-11 01:48:56 | accuracy: 0.8627 | total_groundtruth: 50 | total_ocr: 50
+2025-11-11 02:02:22 | accuracy: 0.8320 | total_groundtruth: 50 | total_ocr: 50
+2025-11-11 02:03:55 | accuracy: 0.8320 | total_groundtruth: 50 | total_ocr: 50
+2025-11-11 02:19:26 | accuracy: 0.8387 | total_groundtruth: 50 | total_ocr: 50
+2025-11-11 02:22:13 | accuracy: 0.8547 | total_groundtruth: 50 | total_ocr: 50
+2025-11-11 02:23:12 | accuracy: 0.8573 | total_groundtruth: 50 | total_ocr: 50
+2025-11-11 02:30:50 | accuracy: 0.8653 | total_groundtruth: 50 | total_ocr: 50
+2025-11-11 02:35:12 | accuracy: 0.8800 | total_groundtruth: 10 | total_ocr: 10
+2025-11-11 02:47:48 | accuracy: 0.9333 | total_groundtruth: 10 | total_ocr: 10
+2025-11-11 02:50:36 | accuracy: 0.9467 | total_groundtruth: 10 | total_ocr: 10
+2025-11-11 14:22:03 | accuracy: 0.9467 | precision: 1.0000 | recall: 1.0000 | total_groundtruth: 10 | total_ocr: 10
+2025-11-11 14:24:07 | accuracy: 0.9467 | precision: 0.9530 | recall: 0.9467 | total_groundtruth: 10 | total_ocr: 10
+2025-11-11 14:29:54 | accuracy: 0.9467 | precision: 0.9530 | recall: 0.9467 | total_groundtruth: 10 | total_ocr: 10
+2025-11-11 14:31:14 | accuracy: 0.9467 | precision: 0.9530 | recall: 0.9467 | total_groundtruth: 10 | total_ocr: 10
+2025-11-11 14:37:59 | accuracy: 0.9360 | precision: 0.9461 | recall: 0.9360 | total_groundtruth: 50 | total_ocr: 50
+2025-11-11 14:43:42 | accuracy: 0.9330 | precision: 0.9462 | recall: 0.9330 | total_groundtruth: 200 | total_ocr: 200
+2025-11-11 14:58:46 | accuracy: 0.9330 | total_groundtruth: 200 | total_ocr: 200
+2025-11-11 15:05:51 | accuracy: 0.9330 | total_groundtruth: 200 | total_ocr: 200
+2025-11-11 15:11:29 | accuracy: 0.9330 | total_groundtruth: 200 | total_ocr: 200
+2025-11-11 15:12:10 | accuracy: 0.9330 | total_groundtruth: 200 | total_ocr: 200
+2025-11-11 15:13:52 | accuracy: 0.9330 | total_groundtruth: 200 | total_ocr: 200
+2025-11-11 15:16:55 | accuracy: 0.9330 | total_groundtruth: 200 | total_ocr: 200
+2025-11-11 15:17:26 | accuracy: 0.9330 | total_groundtruth: 200 | total_ocr: 200
+2025-11-11 15:18:06 | accuracy: 0.9330 | total_groundtruth: 200 | total_ocr: 200
+2025-11-11 15:20:06 | accuracy: 0.9330 | row_pass_rate: 0.3800 | row_missing_rate: 0.1850 | overall_missing_rate: 0.0140 | total_groundtruth: 200 | total_ocr: 200
+2025-11-11 15:21:54 | accuracy: 0.9330 | row_pass_rate: 0.3800 | row_missing_rate: 0.1850 | overall_missing_rate: 0.0140 | total_groundtruth: 200 | total_ocr: 200
+2025-11-11 15:25:02 | accuracy: 0.9330 | row_pass_rate: 0.3800 | row_missing_rate: 0.1850 | overall_missing_rate: 0.0140 | total_groundtruth: 200 | total_ocr: 200
+2025-11-11 15:25:48 | accuracy: 0.9330 | row_pass_rate: 0.3800 | row_missing_rate: 0.1850 | overall_missing_rate: 0.0140 | total_groundtruth: 200 | total_ocr: 200
+2025-11-17 16:42:17 | accuracy: 0.9333 | row_pass_rate: 0.4000 | row_missing_rate: 0.2000 | overall_missing_rate: 0.0133 | total_groundtruth: 5 | total_ocr: 5
+2025-11-17 16:48:50 | accuracy: 0.9330 | row_pass_rate: 0.3800 | row_missing_rate: 0.1850 | overall_missing_rate: 0.0140 | total_groundtruth: 200 | total_ocr: 200
+2025-11-17 17:10:08 | accuracy: 0.6360 | row_pass_rate: 0.0000 | row_missing_rate: 0.4200 | overall_missing_rate: 0.0307 | total_groundtruth: 200 | total_ocr: 200
+2025-11-17 17:10:32 | accuracy: 0.6360 | row_pass_rate: 0.0000 | row_missing_rate: 0.4200 | overall_missing_rate: 0.0307 | total_groundtruth: 200 | total_ocr: 200
+2025-11-17 17:16:15 | accuracy: 0.7570 | row_pass_rate: 0.0000 | row_missing_rate: 0.1750 | overall_missing_rate: 0.0127 | total_groundtruth: 200 | total_ocr: 200
+2025-11-17 17:22:15 | accuracy: 0.9363 | row_pass_rate: 0.3950 | row_missing_rate: 0.1850 | overall_missing_rate: 0.0140 | total_groundtruth: 200 | total_ocr: 200
+2025-11-17 20:45:20 | accuracy: 0.9363 | row_pass_rate: 0.3950 | row_missing_rate: 0.1850 | overall_missing_rate: 0.0140 | total_groundtruth: 200 | total_ocr: 200

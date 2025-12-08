@@ -1,0 +1,1120 @@
+{
+  "key_column": "Nama File",
+  "total_records_ground_truth": 200,
+  "total_records_ocr": 200,
+  "shared_records": 200,
+  "missing_in_ground_truth": [],
+  "missing_in_ocr_results": [],
+  "overall_accuracy": 0.9363,
+  "rows_compared": 200,
+  "rows_passing": 79,
+  "rows_missing": 37,
+  "row_pass_rate": 0.395,
+  "row_missing_rate": 0.185,
+  "overall_missing": 42,
+  "overall_missing_rate": 0.014,
+  "total_field_comparisons": 3000,
+  "columns": {
+    "Nomor": {
+      "total_compared": 200,
+      "matches": 200,
+      "mismatches": 0,
+      "accuracy": 1.0,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "missmatch": []
+    },
+    "Nama File": {
+      "total_compared": 200,
+      "matches": 200,
+      "mismatches": 0,
+      "accuracy": 1.0,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "missmatch": []
+    },
+    "Due Date": {
+      "total_compared": 200,
+      "matches": 195,
+      "mismatches": 5,
+      "accuracy": 0.975,
+      "missing": 2,
+      "missing_rate": 0.01,
+      "missmatch": [
+        {
+          "Nama File": "Template1_Instance144.jpg",
+          "expected": "03-Dec-2017",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance188.jpg",
+          "expected": "07-Nov-2017",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance67.jpg",
+          "expected": "25-Jun-1994",
+          "ocr": "05-Jun-1994"
+        },
+        {
+          "Nama File": "Template1_Instance85.jpg",
+          "expected": "15-Aug-2001",
+          "ocr": "06-Aug-2001"
+        },
+        {
+          "Nama File": "Template1_Instance95.jpg",
+          "expected": "10-Feb-2005",
+          "ocr": "10-Feb-2008"
+        }
+      ]
+    },
+    "PO Number": {
+      "total_compared": 200,
+      "matches": 188,
+      "mismatches": 12,
+      "accuracy": 0.94,
+      "missing": 12,
+      "missing_rate": 0.06,
+      "missmatch": [
+        {
+          "Nama File": "Template1_Instance100.jpg",
+          "expected": "27",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance103.jpg",
+          "expected": "25",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance122.jpg",
+          "expected": "26",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance143.jpg",
+          "expected": "50",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance144.jpg",
+          "expected": "53",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance188.jpg",
+          "expected": "24",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance189.jpg",
+          "expected": "25",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance190.jpg",
+          "expected": "59",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance50.jpg",
+          "expected": "56",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance53.jpg",
+          "expected": "59",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance6.jpg",
+          "expected": "27",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance60.jpg",
+          "expected": "27",
+          "ocr": ""
+        }
+      ]
+    },
+    "Tel": {
+      "total_compared": 200,
+      "matches": 162,
+      "mismatches": 38,
+      "accuracy": 0.81,
+      "missing": 2,
+      "missing_rate": 0.01,
+      "missmatch": [
+        {
+          "Nama File": "Template1_Instance0.jpg",
+          "expected": "+(352)259-8443",
+          "ocr": "+(382)259-8443"
+        },
+        {
+          "Nama File": "Template1_Instance10.jpg",
+          "expected": "+(675)553-3428",
+          "ocr": "+(675)859-3428"
+        },
+        {
+          "Nama File": "Template1_Instance102.jpg",
+          "expected": "+(811)045-2978",
+          "ocr": "+(811)045-2078"
+        },
+        {
+          "Nama File": "Template1_Instance103.jpg",
+          "expected": "+(832)234-6947",
+          "ocr": "+(832)234-6047"
+        },
+        {
+          "Nama File": "Template1_Instance117.jpg",
+          "expected": "+(028)833-4920",
+          "ocr": "+(028)833-4020"
+        },
+        {
+          "Nama File": "Template1_Instance123.jpg",
+          "expected": "+(050)147-0550",
+          "ocr": "+(080)147-0550"
+        },
+        {
+          "Nama File": "Template1_Instance124.jpg",
+          "expected": "+(298)570-1377",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance148.jpg",
+          "expected": "+(650)884-2283",
+          "ocr": "+(650)894-2283"
+        },
+        {
+          "Nama File": "Template1_Instance151.jpg",
+          "expected": "+(319)551-2386",
+          "ocr": "+(319)851-2386"
+        },
+        {
+          "Nama File": "Template1_Instance157.jpg",
+          "expected": "+(567)291-2696",
+          "ocr": "+(567)201-2696"
+        },
+        {
+          "Nama File": "Template1_Instance16.jpg",
+          "expected": "+(230)837-6011",
+          "ocr": "+(230)837-8011"
+        },
+        {
+          "Nama File": "Template1_Instance160.jpg",
+          "expected": "+(105)718-2138",
+          "ocr": "+(108)718-2138"
+        },
+        {
+          "Nama File": "Template1_Instance161.jpg",
+          "expected": "+(931)638-6287",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance168.jpg",
+          "expected": "+(414)569-5914",
+          "ocr": "+(414)569-5014"
+        },
+        {
+          "Nama File": "Template1_Instance171.jpg",
+          "expected": "+(444)202-9631",
+          "ocr": "+(444)202-9634"
+        },
+        {
+          "Nama File": "Template1_Instance175.jpg",
+          "expected": "+(445)550-8759",
+          "ocr": "+(448)550-8759"
+        },
+        {
+          "Nama File": "Template1_Instance176.jpg",
+          "expected": "+(305)148-5058",
+          "ocr": "+(308)148-5058"
+        },
+        {
+          "Nama File": "Template1_Instance180.jpg",
+          "expected": "+(246)369-4417",
+          "ocr": "+(246)365-4417"
+        },
+        {
+          "Nama File": "Template1_Instance182.jpg",
+          "expected": "+(030)729-8982",
+          "ocr": "+(030)729-8082"
+        },
+        {
+          "Nama File": "Template1_Instance195.jpg",
+          "expected": "+(348)969-9998",
+          "ocr": "+(348)969-9098"
+        },
+        {
+          "Nama File": "Template1_Instance197.jpg",
+          "expected": "+(651)236-6819",
+          "ocr": "+(651)236-8819"
+        },
+        {
+          "Nama File": "Template1_Instance198.jpg",
+          "expected": "+(674)951-6593",
+          "ocr": "+(674)951-8593"
+        },
+        {
+          "Nama File": "Template1_Instance2.jpg",
+          "expected": "+(081)577-2718",
+          "ocr": "+(081)877-2718"
+        },
+        {
+          "Nama File": "Template1_Instance27.jpg",
+          "expected": "+(057)950-6990",
+          "ocr": "+(087)950-6990"
+        },
+        {
+          "Nama File": "Template1_Instance40.jpg",
+          "expected": "+(496)894-6592",
+          "ocr": "+(496)804-6592"
+        },
+        {
+          "Nama File": "Template1_Instance49.jpg",
+          "expected": "+(350)705-4369",
+          "ocr": "+(380)705-4369"
+        },
+        {
+          "Nama File": "Template1_Instance57.jpg",
+          "expected": "+(735)520-6097",
+          "ocr": "+(738)520-6097"
+        },
+        {
+          "Nama File": "Template1_Instance58.jpg",
+          "expected": "+(365)243-7347",
+          "ocr": "+(368)243-7347"
+        },
+        {
+          "Nama File": "Template1_Instance59.jpg",
+          "expected": "+(485)494-5452",
+          "ocr": "+(488)404-5452"
+        },
+        {
+          "Nama File": "Template1_Instance62.jpg",
+          "expected": "+(545)703-2959",
+          "ocr": "+(545)703-2059"
+        },
+        {
+          "Nama File": "Template1_Instance68.jpg",
+          "expected": "+(105)309-9128",
+          "ocr": "+(108)309-9128"
+        },
+        {
+          "Nama File": "Template1_Instance69.jpg",
+          "expected": "+(929)281-2947",
+          "ocr": "+(929)281-2047"
+        },
+        {
+          "Nama File": "Template1_Instance73.jpg",
+          "expected": "+(934)296-8657",
+          "ocr": "+(934)206-8657"
+        },
+        {
+          "Nama File": "Template1_Instance77.jpg",
+          "expected": "+(262)816-0692",
+          "ocr": "+(262)846-0692"
+        },
+        {
+          "Nama File": "Template1_Instance87.jpg",
+          "expected": "+(716)413-8969",
+          "ocr": "+(716)413-8069"
+        },
+        {
+          "Nama File": "Template1_Instance9.jpg",
+          "expected": "+(783)572-8210",
+          "ocr": "+(783)872-8210"
+        },
+        {
+          "Nama File": "Template1_Instance95.jpg",
+          "expected": "+(989)859-0993",
+          "ocr": "+(989)859-0093"
+        },
+        {
+          "Nama File": "Template1_Instance97.jpg",
+          "expected": "+(469)076-2971",
+          "ocr": "+(469)076-2071"
+        }
+      ]
+    },
+    "Email": {
+      "total_compared": 200,
+      "matches": 169,
+      "mismatches": 31,
+      "accuracy": 0.845,
+      "missing": 12,
+      "missing_rate": 0.06,
+      "missmatch": [
+        {
+          "Nama File": "Template1_Instance0.jpg",
+          "expected": "melvin40@example.net",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance102.jpg",
+          "expected": "ymills@example.org",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance104.jpg",
+          "expected": "nicole58@example.net",
+          "ocr": "nicoles8@example.net"
+        },
+        {
+          "Nama File": "Template1_Instance115.jpg",
+          "expected": "jefferytorres@example.org",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance118.jpg",
+          "expected": "heather60@example.org",
+          "ocr": "heathers0@example.org"
+        },
+        {
+          "Nama File": "Template1_Instance119.jpg",
+          "expected": "tiffany03@example.net",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance124.jpg",
+          "expected": "fnavarro@example.org",
+          "ocr": "navarro@example.org"
+        },
+        {
+          "Nama File": "Template1_Instance125.jpg",
+          "expected": "kenneth00@example.net",
+          "ocr": "kenneth0@example.net"
+        },
+        {
+          "Nama File": "Template1_Instance130.jpg",
+          "expected": "lisa19@example.com",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance134.jpg",
+          "expected": "wyatt50@example.com",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance136.jpg",
+          "expected": "victoria14@example.com",
+          "ocr": "victoriat4@example.com"
+        },
+        {
+          "Nama File": "Template1_Instance151.jpg",
+          "expected": "mbrowning@example.net",
+          "ocr": "imbrowning@example.net"
+        },
+        {
+          "Nama File": "Template1_Instance158.jpg",
+          "expected": "ldennis@example.net",
+          "ocr": "idennis@example.net"
+        },
+        {
+          "Nama File": "Template1_Instance160.jpg",
+          "expected": "laura13@example.com",
+          "ocr": "laurat3@example.com"
+        },
+        {
+          "Nama File": "Template1_Instance163.jpg",
+          "expected": "felicia16@example.net",
+          "ocr": "feliciat6@example.net"
+        },
+        {
+          "Nama File": "Template1_Instance171.jpg",
+          "expected": "reevesralph@example.org",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance173.jpg",
+          "expected": "andredoyle@example.net",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance178.jpg",
+          "expected": "ramirezpatrick@example.org",
+          "ocr": "ramiirezpatrick@example.org"
+        },
+        {
+          "Nama File": "Template1_Instance180.jpg",
+          "expected": "gibbsheather@example.org",
+          "ocr": "gibbsheather@oxample.org"
+        },
+        {
+          "Nama File": "Template1_Instance183.jpg",
+          "expected": "kevin49@example.com",
+          "ocr": "kevin43@example.com"
+        },
+        {
+          "Nama File": "Template1_Instance184.jpg",
+          "expected": "olivertammy@example.org",
+          "ocr": "tolivertammy@example.org"
+        },
+        {
+          "Nama File": "Template1_Instance199.jpg",
+          "expected": "walkersusan@example.net",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance52.jpg",
+          "expected": "iancaldwell@example.org",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance54.jpg",
+          "expected": "leslierice@example.net",
+          "ocr": "eslierice@example.net"
+        },
+        {
+          "Nama File": "Template1_Instance56.jpg",
+          "expected": "danielconley@example.org",
+          "ocr": "danielconiey@example.org"
+        },
+        {
+          "Nama File": "Template1_Instance58.jpg",
+          "expected": "franklin29@example.net",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance77.jpg",
+          "expected": "garciatimothy@example.org",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance80.jpg",
+          "expected": "bradley41@example.org",
+          "ocr": "bradiey41@example.org"
+        },
+        {
+          "Nama File": "Template1_Instance81.jpg",
+          "expected": "jparrish@example.com",
+          "ocr": "parrish@example.com"
+        },
+        {
+          "Nama File": "Template1_Instance86.jpg",
+          "expected": "clarklauren@example.net",
+          "ocr": "clarkiauren@example.net"
+        },
+        {
+          "Nama File": "Template1_Instance99.jpg",
+          "expected": "frances69@example.org",
+          "ocr": "frances63@example.org"
+        }
+      ]
+    },
+    "Site": {
+      "total_compared": 200,
+      "matches": 165,
+      "mismatches": 35,
+      "accuracy": 0.825,
+      "missing": 1,
+      "missing_rate": 0.005,
+      "missmatch": [
+        {
+          "Nama File": "Template1_Instance10.jpg",
+          "expected": "https://www.mccormick.com/",
+          "ocr": "https://www.mecormick.com/"
+        },
+        {
+          "Nama File": "Template1_Instance101.jpg",
+          "expected": "http://rivera.info/",
+          "ocr": "http://frivera.info/"
+        },
+        {
+          "Nama File": "Template1_Instance108.jpg",
+          "expected": "https://foley-hodges.info/",
+          "ocr": "https://ffoley-hodges.nfo/"
+        },
+        {
+          "Nama File": "Template1_Instance11.jpg",
+          "expected": "http://livingston.com/",
+          "ocr": "http://fivingston.com/"
+        },
+        {
+          "Nama File": "Template1_Instance110.jpg",
+          "expected": "https://oconnor.biz/",
+          "ocr": "https://foconnor.biz/"
+        },
+        {
+          "Nama File": "Template1_Instance112.jpg",
+          "expected": "https://jones.com/",
+          "ocr": "https://ifjones.com/"
+        },
+        {
+          "Nama File": "Template1_Instance117.jpg",
+          "expected": "http://www.mccoy.com/",
+          "ocr": "http://www.mecoy.com/"
+        },
+        {
+          "Nama File": "Template1_Instance123.jpg",
+          "expected": "http://rodriguez.com/",
+          "ocr": "http://frodriguez.com/"
+        },
+        {
+          "Nama File": "Template1_Instance125.jpg",
+          "expected": "https://www.weaver-gutierrez.biz/",
+          "ocr": "https://www.weaver-gutierrez.bi/"
+        },
+        {
+          "Nama File": "Template1_Instance126.jpg",
+          "expected": "http://mcgrath.com/",
+          "ocr": "http://megrath.com/"
+        },
+        {
+          "Nama File": "Template1_Instance133.jpg",
+          "expected": "http://www.mcdonald.com/",
+          "ocr": "http://www.medonald.com/"
+        },
+        {
+          "Nama File": "Template1_Instance134.jpg",
+          "expected": "http://hays.com/",
+          "ocr": "http://fhays.com/"
+        },
+        {
+          "Nama File": "Template1_Instance140.jpg",
+          "expected": "http://www.bailey.com/",
+          "ocr": "http://www.balley.com/"
+        },
+        {
+          "Nama File": "Template1_Instance142.jpg",
+          "expected": "https://robinson.com/",
+          "ocr": "https://frobinson.com/"
+        },
+        {
+          "Nama File": "Template1_Instance156.jpg",
+          "expected": "http://www.miller-jones.info/",
+          "ocr": "http://www.millerjones.info/"
+        },
+        {
+          "Nama File": "Template1_Instance158.jpg",
+          "expected": "http://watson.biz/",
+          "ocr": "http://twatson.biz/"
+        },
+        {
+          "Nama File": "Template1_Instance159.jpg",
+          "expected": "http://rodriguez.com/",
+          "ocr": "http://frodriguez.com/"
+        },
+        {
+          "Nama File": "Template1_Instance169.jpg",
+          "expected": "http://clark.com/",
+          "ocr": "http://fclark.com/"
+        },
+        {
+          "Nama File": "Template1_Instance172.jpg",
+          "expected": "http://www.ruiz.info/",
+          "ocr": "http://www.rulz.info/"
+        },
+        {
+          "Nama File": "Template1_Instance184.jpg",
+          "expected": "https://www.rodriguez.info/",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance192.jpg",
+          "expected": "https://www.mcconnell.com/",
+          "ocr": "https://www.meconnell.com/"
+        },
+        {
+          "Nama File": "Template1_Instance197.jpg",
+          "expected": "https://carpenter.biz/",
+          "ocr": "https://fearpenter.biz/"
+        },
+        {
+          "Nama File": "Template1_Instance20.jpg",
+          "expected": "https://robertson.com/",
+          "ocr": "https://frobertson.com/"
+        },
+        {
+          "Nama File": "Template1_Instance3.jpg",
+          "expected": "https://melendez.biz/",
+          "ocr": "https://metendez.biz/"
+        },
+        {
+          "Nama File": "Template1_Instance45.jpg",
+          "expected": "https://arias.com/",
+          "ocr": "https://larias.com/"
+        },
+        {
+          "Nama File": "Template1_Instance5.jpg",
+          "expected": "http://francis.com/",
+          "ocr": "http://ffrancis.com/"
+        },
+        {
+          "Nama File": "Template1_Instance55.jpg",
+          "expected": "http://www.sanders.com/",
+          "ocr": "https://www.sanders.com/"
+        },
+        {
+          "Nama File": "Template1_Instance60.jpg",
+          "expected": "https://rodriguez.com/",
+          "ocr": "https://frodriguez.com/"
+        },
+        {
+          "Nama File": "Template1_Instance68.jpg",
+          "expected": "http://randall-valenzuela.com/",
+          "ocr": "http://frandall-valenzuela.com/"
+        },
+        {
+          "Nama File": "Template1_Instance71.jpg",
+          "expected": "http://ruiz-may.org/",
+          "ocr": "http://fruiz-may.org/"
+        },
+        {
+          "Nama File": "Template1_Instance72.jpg",
+          "expected": "http://andrews-thompson.info/",
+          "ocr": "http://fandrews-thompson.info/"
+        },
+        {
+          "Nama File": "Template1_Instance81.jpg",
+          "expected": "https://johnson.com/",
+          "ocr": "https://fjohnson.com/"
+        },
+        {
+          "Nama File": "Template1_Instance85.jpg",
+          "expected": "http://porter.com/",
+          "ocr": "https://fporter.com/"
+        },
+        {
+          "Nama File": "Template1_Instance92.jpg",
+          "expected": "https://carr.biz/",
+          "ocr": "https://fearr.biz/"
+        },
+        {
+          "Nama File": "Template1_Instance99.jpg",
+          "expected": "http://shaffer.com/",
+          "ocr": "http://fshaffer.com/"
+        }
+      ]
+    },
+    "SUB_TOTAL": {
+      "total_compared": 200,
+      "matches": 180,
+      "mismatches": 20,
+      "accuracy": 0.9,
+      "missing": 13,
+      "missing_rate": 0.065,
+      "missmatch": [
+        {
+          "Nama File": "Template1_Instance10.jpg",
+          "expected": "735.29 EUR",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance108.jpg",
+          "expected": "324.71 USD",
+          "ocr": "924.71 USD"
+        },
+        {
+          "Nama File": "Template1_Instance11.jpg",
+          "expected": "286.76 $",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance112.jpg",
+          "expected": "697.36 $",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance124.jpg",
+          "expected": "701.48 $",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance139.jpg",
+          "expected": "713.51 $",
+          "ocr": "743.51 $"
+        },
+        {
+          "Nama File": "Template1_Instance141.jpg",
+          "expected": "607.66 EUR",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance174.jpg",
+          "expected": "524.28 EUR",
+          "ocr": "24.28 EUR"
+        },
+        {
+          "Nama File": "Template1_Instance180.jpg",
+          "expected": "589.02 USD",
+          "ocr": "89.02 USD"
+        },
+        {
+          "Nama File": "Template1_Instance188.jpg",
+          "expected": "250.65 $",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance23.jpg",
+          "expected": "903.29 $",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance3.jpg",
+          "expected": "516.46 USD",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance38.jpg",
+          "expected": "38.45 $",
+          "ocr": "98.45 $"
+        },
+        {
+          "Nama File": "Template1_Instance39.jpg",
+          "expected": "309.48 EUR",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance4.jpg",
+          "expected": "384.37 $",
+          "ocr": "984.37 $"
+        },
+        {
+          "Nama File": "Template1_Instance6.jpg",
+          "expected": "612.99 EUR",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance66.jpg",
+          "expected": "416.63 $",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance81.jpg",
+          "expected": "739.26 $",
+          "ocr": ""
+        },
+        {
+          "Nama File": "Template1_Instance87.jpg",
+          "expected": "531.36 EUR",
+          "ocr": "531.96 EUR"
+        },
+        {
+          "Nama File": "Template1_Instance88.jpg",
+          "expected": "824.45 USD",
+          "ocr": ""
+        }
+      ]
+    },
+    "DISCOUNT": {
+      "total_compared": 200,
+      "matches": 186,
+      "mismatches": 14,
+      "accuracy": 0.93,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "missmatch": [
+        {
+          "Nama File": "Template1_Instance118.jpg",
+          "expected": "(-) 9.01",
+          "ocr": "(-) 9.04"
+        },
+        {
+          "Nama File": "Template1_Instance123.jpg",
+          "expected": "(-) 4.21",
+          "ocr": "(-) 4.24"
+        },
+        {
+          "Nama File": "Template1_Instance133.jpg",
+          "expected": "(-) 20.81",
+          "ocr": "(-) 20.84"
+        },
+        {
+          "Nama File": "Template1_Instance138.jpg",
+          "expected": "(-) 57.86",
+          "ocr": "(-) $7.86"
+        },
+        {
+          "Nama File": "Template1_Instance157.jpg",
+          "expected": "(-) 47.1",
+          "ocr": "(-) 47.4"
+        },
+        {
+          "Nama File": "Template1_Instance158.jpg",
+          "expected": "(-) 1.51",
+          "ocr": "(-) 1.54"
+        },
+        {
+          "Nama File": "Template1_Instance189.jpg",
+          "expected": "(-) 5.81",
+          "ocr": "(-) 5.841"
+        },
+        {
+          "Nama File": "Template1_Instance198.jpg",
+          "expected": "(-) 7.71",
+          "ocr": "(-) 7.74"
+        },
+        {
+          "Nama File": "Template1_Instance41.jpg",
+          "expected": "(-) 12.11",
+          "ocr": "(-) 12.14"
+        },
+        {
+          "Nama File": "Template1_Instance44.jpg",
+          "expected": "(-) 6.81",
+          "ocr": "(-) 6.84"
+        },
+        {
+          "Nama File": "Template1_Instance46.jpg",
+          "expected": "(-) 50.72",
+          "ocr": "(-) 60.72"
+        },
+        {
+          "Nama File": "Template1_Instance5.jpg",
+          "expected": "(-) 20.61",
+          "ocr": "(-) 20.64"
+        },
+        {
+          "Nama File": "Template1_Instance66.jpg",
+          "expected": "(-) 14.71",
+          "ocr": "(-) 14.74"
+        },
+        {
+          "Nama File": "Template1_Instance78.jpg",
+          "expected": "(-) 54.79",
+          "ocr": "(-) $4.79"
+        }
+      ]
+    },
+    "TAX": {
+      "total_compared": 200,
+      "matches": 179,
+      "mismatches": 21,
+      "accuracy": 0.895,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "missmatch": [
+        {
+          "Nama File": "Template1_Instance108.jpg",
+          "expected": "VAT (4.89%): 15.88 USD",
+          "ocr": "VAT (4.89%): 45.22 USD"
+        },
+        {
+          "Nama File": "Template1_Instance11.jpg",
+          "expected": "VAT (5.35%): 15.34 $",
+          "ocr": "VAT (0.00%): 15.34 $"
+        },
+        {
+          "Nama File": "Template1_Instance112.jpg",
+          "expected": "VAT (5.86%): 40.89 $",
+          "ocr": "VAT (0.00%): 40.89 $"
+        },
+        {
+          "Nama File": "Template1_Instance130.jpg",
+          "expected": "VAT (3.03%): 41.07 EUR",
+          "ocr": "VAT (3.03%): 41.08 EUR"
+        },
+        {
+          "Nama File": "Template1_Instance141.jpg",
+          "expected": "VAT (5.61%): 34.07 EUR",
+          "ocr": "VAT (5.61%): 4.07 EUR"
+        },
+        {
+          "Nama File": "Template1_Instance148.jpg",
+          "expected": "VAT (6.23%): 10.84 EUR",
+          "ocr": "VAT (6.23%): 10.83 USD"
+        },
+        {
+          "Nama File": "Template1_Instance155.jpg",
+          "expected": "VAT (5.32%): 32.43 EUR",
+          "ocr": "VAT (5.32%): 32.41 EUR"
+        },
+        {
+          "Nama File": "Template1_Instance161.jpg",
+          "expected": "VAT (6.75%): 41.76 EUR",
+          "ocr": "VAT (6.75%): 41.78 EUR"
+        },
+        {
+          "Nama File": "Template1_Instance162.jpg",
+          "expected": "VAT (3.11%): 15.27 $",
+          "ocr": "VAT (3.72%): 18.27 $"
+        },
+        {
+          "Nama File": "Template1_Instance174.jpg",
+          "expected": "VAT (4.33%): 22.71 EUR",
+          "ocr": "VAT (4.33%): 1.05 EUR"
+        },
+        {
+          "Nama File": "Template1_Instance180.jpg",
+          "expected": "VAT (5.51%): 32.45 USD",
+          "ocr": "VAT (5.51%): 4.91 USD"
+        },
+        {
+          "Nama File": "Template1_Instance23.jpg",
+          "expected": "VAT (5.14%): 46.42 $",
+          "ocr": "VAT (0.00%): 46.42 $"
+        },
+        {
+          "Nama File": "Template1_Instance25.jpg",
+          "expected": "VAT (5.42%): 70.71 $",
+          "ocr": "VAT (5.42%): 70.74 $"
+        },
+        {
+          "Nama File": "Template1_Instance38.jpg",
+          "expected": "VAT (6.48%): 2.49 $",
+          "ocr": "VAT (6.48%): 6.38 $"
+        },
+        {
+          "Nama File": "Template1_Instance4.jpg",
+          "expected": "VAT (4.85%): 18.63 $",
+          "ocr": "VAT (4.85%): 47.74 $"
+        },
+        {
+          "Nama File": "Template1_Instance44.jpg",
+          "expected": "VAT (3.51%): 11.12 $",
+          "ocr": "VAT (3.51%): 11.11 $"
+        },
+        {
+          "Nama File": "Template1_Instance48.jpg",
+          "expected": "VAT (3.67%): 31.22 EUR",
+          "ocr": "VAT (3.67%): 31.20 EUR"
+        },
+        {
+          "Nama File": "Template1_Instance61.jpg",
+          "expected": "VAT (5.72%): 33.97 USD",
+          "ocr": "VAT (5.72%): 33.96 USD"
+        },
+        {
+          "Nama File": "Template1_Instance64.jpg",
+          "expected": "VAT (5.52%): 71.81 EUR",
+          "ocr": "VAT (5.52%): 71.80 EUR"
+        },
+        {
+          "Nama File": "Template1_Instance66.jpg",
+          "expected": "VAT (5.11%): 21.27 $",
+          "ocr": "VAT (0.00%): 21.27 $"
+        },
+        {
+          "Nama File": "Template1_Instance88.jpg",
+          "expected": "VAT (3.42%): 28.24 USD",
+          "ocr": "VAT (0.00%): 28.24 USD"
+        }
+      ]
+    },
+    "TOTAL": {
+      "total_compared": 200,
+      "matches": 192,
+      "mismatches": 8,
+      "accuracy": 0.96,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "missmatch": [
+        {
+          "Nama File": "Template1_Instance105.jpg",
+          "expected": "586.14 EUR",
+          "ocr": "86.14 EUR"
+        },
+        {
+          "Nama File": "Template1_Instance110.jpg",
+          "expected": "572.33 $",
+          "ocr": "872.33 $"
+        },
+        {
+          "Nama File": "Template1_Instance123.jpg",
+          "expected": "232.64 $",
+          "ocr": "282.64 $"
+        },
+        {
+          "Nama File": "Template1_Instance132.jpg",
+          "expected": "575.33 EUR",
+          "ocr": "75.33 EUR"
+        },
+        {
+          "Nama File": "Template1_Instance158.jpg",
+          "expected": "89.57 EUR",
+          "ocr": "89.87 EUR"
+        },
+        {
+          "Nama File": "Template1_Instance174.jpg",
+          "expected": "521.25 EUR",
+          "ocr": "821.25 EUR"
+        },
+        {
+          "Nama File": "Template1_Instance38.jpg",
+          "expected": "39.99 $",
+          "ocr": "39.995 USD"
+        },
+        {
+          "Nama File": "Template1_Instance8.jpg",
+          "expected": "581.47 EUR",
+          "ocr": "881.47 EUR"
+        }
+      ]
+    },
+    "Bank Name": {
+      "total_compared": 200,
+      "matches": 197,
+      "mismatches": 3,
+      "accuracy": 0.985,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "missmatch": [
+        {
+          "Nama File": "Template1_Instance164.jpg",
+          "expected": "Central Bank of Texas",
+          "ocr": "Thank you for your business"
+        },
+        {
+          "Nama File": "Template1_Instance44.jpg",
+          "expected": "Central Bank of California",
+          "ocr": "This order is shipped through blue dart"
+        },
+        {
+          "Nama File": "Template1_Instance69.jpg",
+          "expected": "Central Bank of England",
+          "ocr": "Thank you for choosing us"
+        }
+      ]
+    },
+    "Branch Name": {
+      "total_compared": 200,
+      "matches": 200,
+      "mismatches": 0,
+      "accuracy": 1.0,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "missmatch": []
+    },
+    "Bank Account Number": {
+      "total_compared": 200,
+      "matches": 196,
+      "mismatches": 4,
+      "accuracy": 0.98,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "missmatch": [
+        {
+          "Nama File": "Template1_Instance116.jpg",
+          "expected": "18582412",
+          "ocr": "18882412"
+        },
+        {
+          "Nama File": "Template1_Instance12.jpg",
+          "expected": "13551954",
+          "ocr": "13651954"
+        },
+        {
+          "Nama File": "Template1_Instance38.jpg",
+          "expected": "13513833",
+          "ocr": "13813833"
+        },
+        {
+          "Nama File": "Template1_Instance85.jpg",
+          "expected": "10554122",
+          "ocr": "10854122"
+        }
+      ]
+    },
+    "Bank Swift Code": {
+      "total_compared": 200,
+      "matches": 200,
+      "mismatches": 0,
+      "accuracy": 1.0,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "missmatch": []
+    }
+  }
+}

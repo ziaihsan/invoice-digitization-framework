@@ -1,0 +1,10 @@
+# Runtime baseline
+python==3.13.9  # tested on macOS Tahoe 26.1 (Apple Silicon)
+
+# Core OCR pipeline
+Pillow==10.4.0
+pytesseract==0.3.13
+
+# Excel bridge (verified with Microsoft Excel Version 16.102.3 (25110228) downloaded from microsoft.com, not the Mac App Store)
+xlwings==0.30.14
+appscript==1.2.5 ; sys_platform == "darwin"
