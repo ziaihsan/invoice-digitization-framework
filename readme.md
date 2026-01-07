@@ -137,11 +137,9 @@ pip3 install appscript==1.2.5
 ```bash
 # Check Python version
 python3 --version
-# Expected: Python 3.13.9 or higher
 
 # Check Tesseract installation
 tesseract --version
-# Expected: tesseract 5.x.x
 
 # Check installed packages
 pip3 list | grep -E "(Pillow|pytesseract|xlwings|appscript)"
