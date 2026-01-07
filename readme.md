@@ -95,7 +95,7 @@ It should be like this after:
 
 ### Prerequisites
 
-- **Python 3.13.9** or higher
+- **Python 3**
 - **Tesseract OCR** engine (required for OCR functionality)
 - **Microsoft Excel** (required for RPA/automation features)
 
