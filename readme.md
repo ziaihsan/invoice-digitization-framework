@@ -88,8 +88,8 @@ It should be like this after:
         ├── validate_ocr.py
         ├── validation_report.html
         └── validation_report.json
+```
 
----
 
 ## Installation & Setup
 
