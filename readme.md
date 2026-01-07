@@ -88,3 +88,75 @@ It should be like this after:
         ├── validate_ocr.py
         ├── validation_report.html
         └── validation_report.json
+
+---
+
+## Installation & Setup
+
+### Prerequisites
+
+- **Python 3.13.9** or higher
+- **Tesseract OCR** engine (required for OCR functionality)
+- **Microsoft Excel** (required for RPA/automation features)
+
+### 1. Install Tesseract OCR
+
+**macOS (Homebrew):**
+```bash
+brew install tesseract
+```
+
+**Ubuntu/Debian:**
+```bash
+sudo apt update
+sudo apt install tesseract-ocr
+```
+
+**Windows:**
+Download the installer from [UB-Mannheim/tesseract](https://github.com/UB-Mannheim/tesseract/wiki) and add to PATH.
+
+### 2. Install Python Dependencies
+
+Using requirements.txt (recommended):
+```bash
+pip3 install -r requirements.txt
+```
+
+Or install manually:
+```bash
+pip3 install Pillow==10.4.0 pytesseract==0.3.13 xlwings==0.30.14
+```
+
+**macOS additional dependency:**
+```bash
+pip3 install appscript==1.2.5
+```
+
+### 3. Verify Installation
+
+```bash
+# Check Python version
+python3 --version
+# Expected: Python 3.13.9 or higher
+
+# Check Tesseract installation
+tesseract --version
+# Expected: tesseract 5.x.x
+
+# Check installed packages
+pip3 list | grep -E "(Pillow|pytesseract|xlwings|appscript)"
+```
+
+### Platform Notes
+
+| Dependency | Version | Notes |
+|------------|---------|-------|
+| Python | 3.13.9 | Tested on macOS Tahoe 26.1 (Apple Silicon) |
+| Pillow | 10.4.0 | Image processing for OCR preprocessing |
+| pytesseract | 0.3.13 | Python wrapper for Tesseract OCR |
+| xlwings | 0.30.14 | Excel automation bridge |
+| appscript | 1.2.5 | macOS only (`sys_platform == "darwin"`) |
+
+**Important:**
+- For `xlwings` to work properly, use Microsoft Excel downloaded from [microsoft.com](https://www.microsoft.com), **not** the Mac App Store version.
+- Tested with Microsoft Excel Version 16.102.3 (25110228).
